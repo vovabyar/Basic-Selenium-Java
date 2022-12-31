@@ -1,4 +1,4 @@
-[![Join the chat at https://gitter.im/lazycoderio/sample-java-jenkins](https://badges.gitter.im/lazycoderio/sample-java-jenkins.svg)](https://gitter.im/lazycoderio/sample-java-jenkins?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![codecov](https://codecov.io/gh/lazycoderio/Basic-Selenium-Java/branch/master/graph/badge.svg)](https://codecov.io/gh/lazycoderio/Basic-Selenium-Java) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/afdb9236cb2442faaa513c2db4114396)](https://www.codacy.com/app/andrew-m-krug/Basic-Selenium-Java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lazycoderio/Basic-Selenium-Java&amp;utm_campaign=Badge_Grade) [![Dependency Status](https://www.versioneye.com/user/projects/583b58fd4ef164003ff45522/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/583b58fd4ef164003ff45522) [![Build Status](https://travis-ci.org/lazycoderio/Basic-Selenium-Java.svg?branch=master)](https://travis-ci.org/lazycoderio/Basic-Selenium-Java) [![Stories in Ready](https://badge.waffle.io/lazycoderio/Basic-Selenium-Java.png?label=ready&title=Ready)](https://waffle.io/lazycoderio/Basic-Selenium-Java)
+
 # Using this Project
 
 This project is using the latest Selenium Bindings.
@@ -7,23 +7,6 @@ This project is using the latest Selenium Bindings.
 
 Run these commands depending on your base OS.
 
-### On Mac OS
-
-Copy this bootstrap script and run it in a Terminal shell window:
-
-   ```
-   sh -c "$(curl -fsSL https://raw.githubusercontent.com/lazycoderio/Basic-Selenium-Java/master/mac-bootstrap.sh)"
-   ```
-
-It installs the following if it is not already installed:
-
-1. Install Homebrew `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-2. Install Caskroom `brew tap caskroom/cask`
-3. If you dont have the Java Development Kit (JDK) run this command `brew cask install java`
-4. Install Maven `brew install maven`
-5. Run `./mac_install_browsers.sh`
-
-The script also runs the test.
 
 ### On Windows
 
@@ -40,20 +23,19 @@ The script also runs the test.
 
 1. The script should install Chocolatey the Windows package manager.
 2. Install latest versions of 
+
     a. Firefox
+    
     b. Chrome
+    
     c. PhantomJS
+    
 3. Selenium drivers for the above and the Edgedriver
 
 ## Running Tests
 
 The following commands are instructions on how to run the tests
 
-### From CLI
-
-On a Mac:
-
-   `mvn test  -Dsurefire.suiteXmlFiles=mac-only.xml`
 
 ### Intellij IDEA
 
