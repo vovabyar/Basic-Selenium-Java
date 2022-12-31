@@ -1,0 +1,5 @@
+localbrowsers\Chrome.class
+localbrowsers\Firefox.class
+localbrowsers\Safari.class
+localbrowsers\Edge.class
+localbrowsers\PhantomJS.class
